@@ -31,7 +31,7 @@ body {
 
 .social-card {
   width: 90%;
-  max-width: 320px;
+  max-width: 340px;
   background-color: var(--gray-800);
   border-radius: 10px;
   display: flex;
@@ -42,8 +42,8 @@ body {
 }
 
 .social-card-picture {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   background-image: url(./assets/images/avatar-jessica.jpeg);
   background-position: center;
   background-size: cover;
@@ -52,7 +52,7 @@ body {
 }
 
 .social-card-name {
-  font-size: 20px;
+  font-size: 25px;
   margin: 0;
   margin-bottom: 8px;
 }
