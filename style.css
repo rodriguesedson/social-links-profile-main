@@ -93,6 +93,9 @@ body {
   text-decoration: none;
   color: white;
   font-weight: 700;
+  display: block;
+  height: 100%;
+  align-content: center;
 }
 
 .attribution { 
