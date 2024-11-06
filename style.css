@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  --primary: #141414;
+  --secondary: #1f1f1f;
+  --aux1: #333;
+  --aux2: #a1c23f;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+}
+
+.social-card {
+  width: 80%;
+  max-width: fit-content;
+  background-color: var(--secondary);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.social-card-picture {
+  width: 80px;
+  height: 80px;
+  background-image: url(./assets/images/avatar-jessica.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 100%;
+  margin-bottom: 25px;
+}
+
+.social-card-name {
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.social-card-location {
+  color: var(--aux2);
+  font-weight: 700;
+  margin: 0;
+}
+
+.social-card-description {
+  font-weight: 300;
+  margin: 20px;
+  text-align: center;
+}
+
+.social-card-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.social-card-item {
+  width: 100%;
+  height: 40px;
+  background-color: var(--aux1);
+  text-align: center;
+  align-content: center;
+  border-radius: 5px;
+}
+
+.social-card-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
