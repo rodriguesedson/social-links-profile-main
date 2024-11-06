@@ -13,20 +13,18 @@
 body {
   margin: 0;
   padding: 0;
-  --gray-900: hsl(0, 0%, 8%);
-  --gray-800: hsl(0, 0%, 12%);
-  --gray-700: hsl(0, 0%, 20%);
-  --green: hsl(75, 94%, 57%);
-}
-
-.main {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: var(--gray-900);
+
+  --gray-900: hsl(0, 0%, 8%);
+  --gray-800: hsl(0, 0%, 12%);
+  --gray-700: hsl(0, 0%, 20%);
+  --green: hsl(75, 94%, 57%);
 }
 
 .social-card {
@@ -70,38 +68,34 @@ body {
   display: block;
 }
 
-.social-card-list {
+.social-card-links {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  list-style: none;
-  width: 100%;
+  align-items: center;
   gap: 16px;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
 
-.social-card-item {
-  width: 100%;
+.social-card-link {
+  display: block;
+  align-content: center;
+  text-align: center;
+  
   height: 45px;
   background-color: var(--gray-700);
-  text-align: center;
-  align-content: center;
+  width: 100%;
   border-radius: 5px;
-}
-
-.social-card-link {
+  
   text-decoration: none;
   color: white;
   font-weight: 700;
-  display: block;
-  height: 100%;
-  align-content: center;
 }
 
 .social-card-link:hover {
   background-color: var(--green);
-  border-radius: 5px;
   color: var(--gray-900);
 }
 
