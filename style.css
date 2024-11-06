@@ -99,6 +99,12 @@ body {
   align-content: center;
 }
 
+.social-card-link:hover {
+  background-color: var(--green);
+  border-radius: 5px;
+  color: var(--gray-900);
+}
+
 .attribution { 
   font-size: 11px; 
   text-align: center; 
